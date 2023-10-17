@@ -2,18 +2,25 @@
 
 int Calculator::Add (double a, double b)
 {
-<<<<<<< HEAD
-<<<<<<< HEAD
+    printf("Result of addition:");
     return a + b;
-=======
-	return a + b;
->>>>>>> 4ad40a3 (fix truncation error)
-=======
-	return a + b;
->>>>>>> cbcb06d (formatting: use tabs instead of spaces)
 }
 
 int Calculator::Sub (double a, double b)
 {
-	return Add (a, -b);
+
+    printf("Result of subtraction:");
+    return Add (a, -b);
+}
+
+int Calculator::Mul (double a, double b)
+{
+    printf("Result of multiplication:");
+    return a * b;
+}
+
+float Calculator::Div (double a, double b)
+{
+    printf("Result of division:");
+    return a / b;
 }
