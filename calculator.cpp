@@ -4,11 +4,11 @@ int Calculator::Add (double a, double b)
 {
     printf("Result of addition:");
     return a + b;
-
 }
 
 int Calculator::Sub (double a, double b)
 {
+
     printf("Result of subtraction:");
     return Add (a, -b);
 }
